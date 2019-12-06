@@ -1,0 +1,72 @@
+/* Reseting css styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  float: right;
+}
+li {
+  float: left;
+  list-style: none;
+  padding: 20px;
+}
+
+/* nav styling */
+#main-nav {
+  background: #333;
+  overflow: auto;
+}
+#main-nav h1 {
+  font-size: 22px;
+  float: left;
+  color: white;
+  padding: 20px;
+  margin-left: 40px;
+}
+#main-nav a {
+  color: white;
+}
+.container {
+  min-width: 650px;
+  max-width: 1180px;
+}
+/* showcase  styling */
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+.showcase-content {
+  padding-top: 160px;
+  text-align: center;
+  line-height: 2em;
+  color: white;
+}
+.showcase-content h1 {
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.showcase-content p {
+  padding-bottom: 20px;
+}
+.showcase-content a {
+  color: white;
+}
+.btn {
+  display: inline-block;
+  background-color: #333;
+  padding: 10px;
+}
+.btn:hover {
+  background-color: #f7c08a;
+}
